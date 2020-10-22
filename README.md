@@ -1,3 +1,4 @@
-# Headline
+# Aegisub 魔法教程
+# Aegisub Magic Tutorial
 
-> An awesome project.
+主要目的是特效模板教学

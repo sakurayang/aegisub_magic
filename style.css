@@ -1,3 +1,28 @@
 .app-sub-sidebar li::before {
 	content: '●' !important;
 }
+
+.song_name {
+	opacity: .65 !important;
+	position: absolute !important;
+	right: 0 !important;
+}
+
+.definition {
+	position: relative;
+	left: 50%;
+	text-align: center;
+	font-size: 1.1rem;
+	color: #cd6227;
+	/*参考：中国色-火砖红*/
+	/*ref: Brick red*/
+	transform: translate(-50%,0%);
+	display: block;
+	text-shadow: none;
+	transition: .3s
+}
+
+.definition:hover {
+	text-shadow: #cea384 0px 0px 5px;
+	transition: .3s
+}
